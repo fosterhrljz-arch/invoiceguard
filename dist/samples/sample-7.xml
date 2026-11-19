@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice>
+  <!-- SYNTHETIC SAMPLE: not a real invoice -->
+  <Country>US</Country>
+  <DocumentType>receipt</DocumentType>
+  <InvoiceNumber>UB-OLD-33</InvoiceNumber>
+  <InvoiceCode></InvoiceCode>
+  <IssueDate>2026-10-22</IssueDate>
+  <SellerName>Uber</SellerName>
+  <SellerTaxId></SellerTaxId>
+  <BuyerName></BuyerName>
+  <BuyerTaxId></BuyerTaxId>
+  <Currency>USD</Currency>
+  <Subtotal>28</Subtotal>
+  <Tax>0</Tax>
+  <Tip>0</Tip>
+  <Discount>0</Discount>
+  <GrandTotal>28</GrandTotal>
+  <Description>transportation</Description>
+</Invoice>

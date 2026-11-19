@@ -1,0 +1,124 @@
+Bundled license information:
+
+react/cjs/react.production.js:
+  /**
+   * @license React
+   * react.production.js
+   *
+   * Copyright (c) Meta Platforms, Inc. and affiliates.
+   *
+   * This source code is licensed under the MIT license found in the
+   * LICENSE file in the root directory of this source tree.
+   */
+
+scheduler/cjs/scheduler.production.js:
+  /**
+   * @license React
+   * scheduler.production.js
+   *
+   * Copyright (c) Meta Platforms, Inc. and affiliates.
+   *
+   * This source code is licensed under the MIT license found in the
+   * LICENSE file in the root directory of this source tree.
+   */
+
+react-dom/cjs/react-dom.production.js:
+  /**
+   * @license React
+   * react-dom.production.js
+   *
+   * Copyright (c) Meta Platforms, Inc. and affiliates.
+   *
+   * This source code is licensed under the MIT license found in the
+   * LICENSE file in the root directory of this source tree.
+   */
+
+react-dom/cjs/react-dom-client.production.js:
+  /**
+   * @license React
+   * react-dom-client.production.js
+   *
+   * Copyright (c) Meta Platforms, Inc. and affiliates.
+   *
+   * This source code is licensed under the MIT license found in the
+   * LICENSE file in the root directory of this source tree.
+   */
+
+exceljs/dist/exceljs.min.js:
+  /*! ExcelJS 19-10-2023 */
+  /*!
+   * The buffer module from node.js, for the browser.
+   *
+   * @author   Feross Aboukhadijeh <https://feross.org>
+   * @license  MIT
+   */
+  /*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */
+  /*!
+  
+  JSZip v3.10.1 - A JavaScript class for generating and reading zip files
+  <http://stuartk.com/jszip>
+  
+  (c) 2009-2016 Stuart Knightley <stuart [at] stuartk.com>
+  Dual licenced under the MIT license or GPLv3. See https://raw.github.com/Stuk/jszip/main/LICENSE.markdown.
+  
+  JSZip uses the library pako released under the MIT license :
+  https://github.com/nodeca/pako/blob/main/LICENSE
+  */
+  /*! safe-buffer. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
+  /**
+   * Character classes and associated utilities for the 5th edition of XML 1.0.
+   *
+   * @author Louis-Dominique Dubeau
+   * @license MIT
+   * @copyright Louis-Dominique Dubeau
+   */
+  /**
+   * Character classes and associated utilities for the 2nd edition of XML 1.1.
+   *
+   * @author Louis-Dominique Dubeau
+   * @license MIT
+   * @copyright Louis-Dominique Dubeau
+   */
+  /**
+   * Character class utilities for XML NS 1.0 edition 3.
+   *
+   * @author Louis-Dominique Dubeau
+   * @license MIT
+   * @copyright Louis-Dominique Dubeau
+   */
+
+lucide-react/dist/esm/shared/src/utils.js:
+lucide-react/dist/esm/defaultAttributes.js:
+lucide-react/dist/esm/Icon.js:
+lucide-react/dist/esm/createLucideIcon.js:
+lucide-react/dist/esm/icons/arrow-up-right.js:
+lucide-react/dist/esm/icons/building-2.js:
+lucide-react/dist/esm/icons/check.js:
+lucide-react/dist/esm/icons/chevron-down.js:
+lucide-react/dist/esm/icons/chevron-right.js:
+lucide-react/dist/esm/icons/circle-check.js:
+lucide-react/dist/esm/icons/clock.js:
+lucide-react/dist/esm/icons/database.js:
+lucide-react/dist/esm/icons/download.js:
+lucide-react/dist/esm/icons/earth.js:
+lucide-react/dist/esm/icons/file-text.js:
+lucide-react/dist/esm/icons/files.js:
+lucide-react/dist/esm/icons/folder-open.js:
+lucide-react/dist/esm/icons/layers.js:
+lucide-react/dist/esm/icons/lock-keyhole.js:
+lucide-react/dist/esm/icons/menu.js:
+lucide-react/dist/esm/icons/plus.js:
+lucide-react/dist/esm/icons/refresh-cw.js:
+lucide-react/dist/esm/icons/search.js:
+lucide-react/dist/esm/icons/settings.js:
+lucide-react/dist/esm/icons/shield-check.js:
+lucide-react/dist/esm/icons/triangle-alert.js:
+lucide-react/dist/esm/icons/upload.js:
+lucide-react/dist/esm/icons/x.js:
+lucide-react/dist/esm/lucide-react.js:
+  /**
+   * @license lucide-react v0.468.0 - ISC
+   *
+   * This source code is licensed under the ISC license.
+   * See the LICENSE file in the root directory of this source tree.
+   */

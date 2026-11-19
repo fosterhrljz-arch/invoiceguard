@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice>
+  <!-- SYNTHETIC SAMPLE: not a real invoice -->
+  <Country>CN</Country>
+  <DocumentType>cn_vat</DocumentType>
+  <InvoiceNumber>20263100000000000002</InvoiceNumber>
+  <InvoiceCode></InvoiceCode>
+  <IssueDate>2026-11-04</IssueDate>
+  <SellerName>上海办公用品有限公司</SellerName>
+  <SellerTaxId>91110108MA0000000A</SellerTaxId>
+  <BuyerName>星河科技（上海）有限公司</BuyerName>
+  <BuyerTaxId>91310000MA1FL0000Z</BuyerTaxId>
+  <Currency>CNY</Currency>
+  <Subtotal>200</Subtotal>
+  <Tax>26</Tax>
+  <Tip>0</Tip>
+  <Discount>0</Discount>
+  <GrandTotal>226</GrandTotal>
+  <Description>office</Description>
+</Invoice>

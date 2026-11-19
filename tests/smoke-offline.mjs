@@ -1,0 +1,17 @@
+import {chromium} from 'playwright';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {pathToFileURL} from 'node:url';
+const browser=await chromium.launch({channel:'chrome',headless:true});
+const ctx=await browser.newContext({offline:true});const page=await ctx.newPage();
+page.on('pageerror',e=>console.log('PAGEERROR',e.message));page.on('console',m=>{if(m.type()==='error')console.log('CONSOLE',m.text().slice(0,300));});
+await page.goto(pathToFileURL(path.resolve('dist/index.html')).href);
+await page.getByRole('button',{name:'Load sample workspace',exact:true}).click();
+await page.getByRole('button',{name:'Upload invoices',exact:true}).click();
+const files=process.argv.slice(2);await page.locator('input[type=file][multiple]').setInputFiles(files.length?files:['public/samples/us-receipt.png','public/samples/us-invoice.pdf']);
+const timer=setInterval(async()=>console.log('PROGRESS',await page.locator('.progress-bar').textContent().catch(()=>'')),15000);
+await page.getByRole('dialog',{name:'Upload invoices'}).waitFor({state:'hidden',timeout:180000});
+clearInterval(timer);
+const state=await page.evaluate(()=>new Promise((resolve,reject)=>{const req=indexedDB.open('invoiceguard-local-v1',1);req.onsuccess=()=>{const db=req.result,r=db.transaction('workspace').objectStore('workspace').get('current');r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);};}));
+await fs.mkdir('test-results',{recursive:true});await fs.writeFile('test-results/smoke.json',JSON.stringify(state.documents.slice(10),null,2));console.log(JSON.stringify(state.documents.slice(10),null,2));
+await page.screenshot({path:'test-results/offline-smoke.png',fullPage:true});await browser.close();

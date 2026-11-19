@@ -1,0 +1,14 @@
+{
+  "models": {
+    "sources": {
+      "eng": "https://github.com/tesseract-ocr/tessdata_fast/tree/4.1.0",
+      "chi_sim": "https://github.com/tesseract-ocr/tessdata_best/tree/4.1.0"
+    },
+    "sha256": {
+      "eng": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2",
+      "chi_sim": "4fef2d1306c8e87616d4d3e4c6c67faf5d44be3342290cf8f2f0f6e3aa7e735b"
+    }
+  },
+  "pdfjs": "5.7.284",
+  "tesseract": "6.0.1"
+}

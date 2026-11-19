@@ -1,0 +1,46 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 416 >>
+stream
+BT /F1 15 Tf 55 755 Td 25 TL
+(SAMPLE - NOT A REAL INVOICE) Tj
+T* (US Invoice) Tj
+T* (Seller: Northstar Office Supplies) Tj
+T* (Invoice Number: SAMPLE-PDF-001) Tj
+T* (Date: 2026-11-04) Tj
+T* (Buyer: Northstar Studio LLC) Tj
+T* (Buyer Tax ID: 12-3456789) Tj
+T* (Seller Tax ID: 23-4567891) Tj
+T* (Currency: USD) Tj
+T* (Description: Office supplies) Tj
+T* (Subtotal: 100.00) Tj
+T* (Tax: 8.50) Tj
+T* (Total: 108.50) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+778
+%%EOF

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice>
+  <!-- SYNTHETIC SAMPLE: not a real invoice -->
+  <Country>US</Country>
+  <DocumentType>receipt</DocumentType>
+  <InvoiceNumber>CC-2026</InvoiceNumber>
+  <InvoiceCode></InvoiceCode>
+  <IssueDate>2026-11-05</IssueDate>
+  <SellerName>Corner Café</SellerName>
+  <SellerTaxId></SellerTaxId>
+  <BuyerName></BuyerName>
+  <BuyerTaxId></BuyerTaxId>
+  <Currency>USD</Currency>
+  <Subtotal>26</Subtotal>
+  <Tax>2.28</Tax>
+  <Tip>0</Tip>
+  <Discount>0</Discount>
+  <GrandTotal>28.28</GrandTotal>
+  <Description>meals</Description>
+</Invoice>

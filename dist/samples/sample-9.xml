@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice>
+  <!-- SYNTHETIC SAMPLE: not a real invoice -->
+  <Country>CN</Country>
+  <DocumentType>cn_vat</DocumentType>
+  <InvoiceNumber>20263100000000000001</InvoiceNumber>
+  <InvoiceCode></InvoiceCode>
+  <IssueDate>2026-11-02</IssueDate>
+  <SellerName>上海云海酒店有限公司</SellerName>
+  <SellerTaxId>91110108MA0000000A</SellerTaxId>
+  <BuyerName>星河科技（上海）有限公司</BuyerName>
+  <BuyerTaxId>91310000MA1FL0000N</BuyerTaxId>
+  <Currency>CNY</Currency>
+  <Subtotal>800</Subtotal>
+  <Tax>48</Tax>
+  <Tip>0</Tip>
+  <Discount>0</Discount>
+  <GrandTotal>848</GrandTotal>
+  <Description>hotels</Description>
+</Invoice>

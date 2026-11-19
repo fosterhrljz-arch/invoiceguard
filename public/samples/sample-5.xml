@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice>
+  <!-- SYNTHETIC SAMPLE: not a real invoice -->
+  <Country>US</Country>
+  <DocumentType>us_invoice</DocumentType>
+  <InvoiceNumber>FG-6012</InvoiceNumber>
+  <InvoiceCode></InvoiceCode>
+  <IssueDate>2026-11-01</IssueDate>
+  <SellerName>Figma</SellerName>
+  <SellerTaxId>12-34567</SellerTaxId>
+  <BuyerName>Northstar Studio LLC</BuyerName>
+  <BuyerTaxId></BuyerTaxId>
+  <Currency>USD</Currency>
+  <Subtotal>45</Subtotal>
+  <Tax>0</Tax>
+  <Tip>0</Tip>
+  <Discount>0</Discount>
+  <GrandTotal>45</GrandTotal>
+  <Description>software</Description>
+</Invoice>
